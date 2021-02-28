@@ -7,10 +7,12 @@ For this purpose we used Pytorch as the main framework and we created 2 simple n
 
 **Results:** The final loss in the generator was 2.3 and in the discriminator 0.3.
 
-Here you can see some example of the generated images:
+Here you can see some example of the generated images: 
+
+
 ![image](https://user-images.githubusercontent.com/47577344/103835664-e2f34200-5054-11eb-9b7a-326564be2421.png)
 
-What i´ve learned:
+**What i´ve learned:**
 - It is important to balance the loss of the generator and the discriminator in order to be close between them.
 - some of the GANs power resides on his forward execution time, which if we compare with other generative techniques as neural style transfer which is on average 15 minutes per image. 
 
